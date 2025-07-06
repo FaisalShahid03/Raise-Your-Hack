@@ -1,43 +1,62 @@
 [
-    {
-      "booth_id": "booth_001",
-      "name": "AI Innovation Hub",
-      "company": "TechCorp",
-      "tags": ["AI", "Enterprise", "Demo"],
-      "description": "Experience the latest AI tools and platforms for modern businesses.",
-      "location": "Booth 42",
-      "category": "AI & Machine Learning",
-      "visitors": 23
-    },
-    {
-      "booth_id": "booth_002",
-      "name": "GreenFuture Lab",
-      "company": "EcoNext",
-      "tags": ["Climate Tech", "Sustainability", "Demo"],
-      "description": "Explore AI-powered climate models and solutions for a greener planet.",
-      "location": "Booth 18",
-      "category": "Sustainability & Environment",
-      "visitors": 41
-    },
-    {
-      "booth_id": "booth_003",
-      "name": "NeuroNLP Studio",
-      "company": "LinguaMind",
-      "tags": ["LLMs", "NLP", "Language Models"],
-      "description": "Interact with cutting-edge language models and multilingual AI tools.",
-      "location": "Booth 7",
-      "category": "AI & Machine Learning",
-      "visitors": 34
-    },
-    {
-      "booth_id": "booth_004",
-      "name": "Web3 Workspaces",
-      "company": "ChainStack",
-      "tags": ["Web3", "DAOs", "Remote Collaboration"],
-      "description": "Discover decentralized tools reshaping the future of digital collaboration.",
-      "location": "Booth 27",
-      "category": "Blockchain & Web3",
-      "visitors": 19
-    }
-  ]
-  
+  {
+    "booth_id": "booth_001",
+    "name": "AI Innovation Hub",
+    "company": "TechCorp",
+    "tags": ["AI", "Enterprise", "Demo"],
+    "description": "Experience the latest AI tools and platforms for modern businesses.",
+    "location": "Booth 42",
+    "category": "AI & Machine Learning",
+    "visitors": 23
+  },
+  {
+    "booth_id": "booth_002",
+    "name": "Climate Solutions Showcase",
+    "company": "EcoTech",
+    "tags": ["Climate Tech", "Sustainability", "Solutions"],
+    "description": "Discover innovative solutions for sustainable business practices.",
+    "location": "Booth 15",
+    "category": "Climate Tech",
+    "visitors": 18
+  },
+  {
+    "booth_id": "booth_003",
+    "name": "Web3 Experience Center",
+    "company": "BlockTech",
+    "tags": ["Web3", "DeFi", "Interactive"],
+    "description": "Interactive demos of Web3 applications and blockchain solutions.",
+    "location": "Booth 28",
+    "category": "Web3 & Blockchain",
+    "visitors": 12
+  },
+  {
+    "booth_id": "booth_004",
+    "name": "GreenFuture Lab",
+    "company": "EcoNext",
+    "tags": ["Climate Tech", "Sustainability", "Demo"],
+    "description": "Explore AI-powered climate models and solutions for a greener planet.",
+    "location": "Booth 18",
+    "category": "Sustainability & Environment",
+    "visitors": 41
+  },
+  {
+    "booth_id": "booth_005",
+    "name": "NeuroNLP Studio",
+    "company": "LinguaMind",
+    "tags": ["LLMs", "NLP", "Language Models"],
+    "description": "Interact with cutting-edge language models and multilingual AI tools.",
+    "location": "Booth 7",
+    "category": "AI & Machine Learning",
+    "visitors": 34
+  },
+  {
+    "booth_id": "booth_006",
+    "name": "Web3 Workspaces",
+    "company": "ChainStack",
+    "tags": ["Web3", "DAOs", "Remote Collaboration"],
+    "description": "Discover decentralized tools reshaping the future of digital collaboration.",
+    "location": "Booth 27",
+    "category": "Blockchain & Web3",
+    "visitors": 19
+  }
+]
