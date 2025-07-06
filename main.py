@@ -1,9 +1,28 @@
 import json
+from typing import Any, Dict, List
 from fastapi import FastAPI, HTTPException
-
+from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI(title="EventAI API")
 
-def find_top_3_interest_matches(user_id: str, json_path: str = r"data/users.json"):
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allows all origins
+    allow_credentials=True,
+    allow_methods=["*"],  # Allows all methods
+    allow_headers=["*"],  # Allows all headers
+)
+
+def load_users(json_path: str = "users.json") -> List[Dict[str, Any]]:
+    """Load users from JSON file"""
+    try:
+        with open(json_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        raise HTTPException(status_code=404, detail="Users file not found")
+    except json.JSONDecodeError:
+        raise HTTPException(status_code=500, detail="Invalid JSON format in users file")
+
+def find_top_3_interest_matches(user_id: str, json_path: str = r"users.json"):
     # Load users
     with open(json_path, "r", encoding="utf-8") as f:
         users = json.load(f)
@@ -63,5 +82,17 @@ def get_matches():
         }
     except ValueError as ve:
         raise HTTPException(status_code=404, detail=str(ve))
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Unexpected error: {str(e)}")
+
+
+@app.get("/users", response_model=List[Dict[str, Any]])
+def get_all_users():
+    """Get all users data"""
+    try:
+        users = load_users()
+        return users
+    except HTTPException as he:
+        raise he
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Unexpected error: {str(e)}")
