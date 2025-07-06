@@ -1,0 +1,55 @@
+[
+    {
+      "session_id": "sess_001",
+      "title": "The Future of AI in Product Development",
+      "speaker": "Dr. Emily Watson",
+      "tags": ["AI", "Product Development", "Innovation"],
+      "badges": ["Recommended", "Trending"],
+      "description": "Explore how AI is transforming product development cycles and user experiences.",
+      "start_time": "10:00 AM",
+      "duration_minutes": 45,
+      "location": "Main Stage",
+      "attendees": 145,
+      "capacity": 200
+    },
+    {
+      "session_id": "sess_002",
+      "title": "Sustainable Tech: Scaling for the Planet",
+      "speaker": "Leila Zhang",
+      "tags": ["Climate Tech", "Sustainability", "Green Startups"],
+      "badges": ["Trending"],
+      "description": "Insights into building scalable, climate-conscious tech products that drive real-world impact.",
+      "start_time": "11:15 AM",
+      "duration_minutes": 40,
+      "location": "Room B2",
+      "attendees": 120,
+      "capacity": 180
+    },
+    {
+      "session_id": "sess_003",
+      "title": "Building Ethical LLMs at Scale",
+      "speaker": "Dr. Kai Tan",
+      "tags": ["LLMs", "AI Ethics", "Responsible AI"],
+      "badges": ["Recommended"],
+      "description": "A deep dive into the challenges and strategies for building transparent and fair large language models.",
+      "start_time": "1:00 PM",
+      "duration_minutes": 50,
+      "location": "Tech Arena C",
+      "attendees": 90,
+      "capacity": 150
+    },
+    {
+      "session_id": "sess_004",
+      "title": "Web3, DAOs, and the Future of Digital Collaboration",
+      "speaker": "Anita Roberts",
+      "tags": ["Web3", "DAOs", "Future of Work"],
+      "badges": [],
+      "description": "Understand the role of decentralized autonomous organizations in shaping tomorrow’s digital workforce.",
+      "start_time": "2:30 PM",
+      "duration_minutes": 45,
+      "location": "Room A1",
+      "attendees": 80,
+      "capacity": 120
+    }
+  ]
+  

@@ -1,0 +1,252 @@
+[
+  {
+    "id": "user_001",
+    "full_name": "Sarah Chen",
+    "job_title": "Senior Product Manager",
+    "company": "TechFlow Inc.",
+    "email": "sarah.chen@techflow.com",
+    "linkedin": "https://linkedin.com/in/sarahchen",
+    "goals_objectives": "Looking to explore partnerships in AI/ML space, learn about sustainable tech solutions, and connect with other product leaders.",
+    "interests": ["AI", "Machine Learning", "SaaS", "Product Strategy", "Climate Tech"]
+  },
+  {
+    "id": "user_002",
+    "full_name": "Raj Mehta",
+    "job_title": "AI Research Scientist",
+    "company": "DeepCompute Labs",
+    "email": "raj.mehta@deepcompute.ai",
+    "linkedin": "https://linkedin.com/in/rajmehta",
+    "goals_objectives": "Interested in commercializing LLMs, discovering startups to collaborate with, and attending technical sessions on generative AI.",
+    "interests": ["AI", "Machine Learning", "Startups", "Data Science", "Cloud Computing"]
+  },
+  {
+    "id": "user_003",
+    "full_name": "Amina Yusuf",
+    "job_title": "Climate Tech Entrepreneur",
+    "company": "GreenBridge Startups",
+    "email": "amina@greenbridge.org",
+    "linkedin": "https://linkedin.com/in/aminayusuf",
+    "goals_objectives": "Looking to find investors, connect with AI experts for sustainability solutions, and showcase our new carbon tracking platform.",
+    "interests": ["Climate Tech", "Sustainability", "AI", "Startups", "ESG"]
+  },
+  {
+    "id": "user_004",
+    "full_name": "Tomás García",
+    "job_title": "Director of Innovation",
+    "company": "NovaWorks",
+    "email": "tomas.garcia@novaworks.io",
+    "linkedin": "https://linkedin.com/in/tomasgarcia",
+    "goals_objectives": "Exploring strategic partnerships, scouting for emerging tech trends, and evaluating potential vendors for upcoming projects.",
+    "interests": ["Innovation", "Enterprise", "Web3", "Robotics", "Digital Transformation"]
+  },
+  {
+    "id": "user_005",
+    "full_name": "Elena Petrov",
+    "job_title": "CTO",
+    "company": "BlockChain Dynamics",
+    "email": "elena@bcdynamics.io",
+    "linkedin": "https://linkedin.com/in/elenapetrov",
+    "goals_objectives": "Seeking talent for our growing engineering team and looking for innovative decentralized applications to invest in.",
+    "interests": ["Blockchain", "Web3", "Startups", "Innovation", "Leadership"]
+  },
+  {
+    "id": "user_006",
+    "full_name": "James Wilson",
+    "job_title": "Head of Digital Transformation",
+    "company": "GlobalBank Corp",
+    "email": "james.wilson@globalbank.com",
+    "linkedin": "https://linkedin.com/in/jameswilson",
+    "goals_objectives": "Evaluating AI solutions for financial services, learning about regulatory tech, and networking with fintech providers.",
+    "interests": ["AI", "Fintech", "Digital Transformation", "Enterprise", "Cloud Computing"]
+  },
+  {
+    "id": "user_007",
+    "full_name": "Priya Kapoor",
+    "job_title": "UX Research Lead",
+    "company": "MetaExperience Labs",
+    "email": "priya.kapoor@metalabs.design",
+    "linkedin": "https://linkedin.com/in/priyakapoor",
+    "goals_objectives": "Looking to understand emerging UX patterns in AR/VR spaces and recruit participants for upcoming studies.",
+    "interests": ["AR/VR", "Design", "Innovation", "Product Strategy", "Enterprise"]
+  },
+  {
+    "id": "user_008",
+    "full_name": "Marcus Johnson",
+    "job_title": "Startup Founder",
+    "company": "NeuroLink AI",
+    "email": "marcus@neurolink.ai",
+    "linkedin": "https://linkedin.com/in/marcusjohnson",
+    "goals_objectives": "Pitching our neurotechnology platform to investors and seeking partnerships with healthcare providers.",
+    "interests": ["AI", "Healthtech", "Startups", "Venture Capital", "Fundraising"]
+  },
+  {
+    "id": "user_009",
+    "full_name": "Lina Zhang",
+    "job_title": "Data Science Director",
+    "company": "OmniAnalytics",
+    "email": "lina.zhang@omnianalytics.com",
+    "linkedin": "https://linkedin.com/in/linazhang",
+    "goals_objectives": "Looking to hire data engineers, learn about new MLops tools, and share our latest research on federated learning.",
+    "interests": ["Data Science", "AI", "Cloud Computing", "Machine Learning", "SaaS"]
+  },
+  {
+    "id": "user_010",
+    "full_name": "David Kim",
+    "job_title": "Venture Partner",
+    "company": "Horizon Ventures",
+    "email": "david@horizonvc.com",
+    "linkedin": "https://linkedin.com/in/davidkim",
+    "goals_objectives": "Scouting for seed-stage startups in quantum computing and climate tech to potentially invest in.",
+    "interests": ["Venture Capital", "Startups", "Climate Tech", "Innovation", "Fundraising"]
+  },
+  {
+    "id": "user_011",
+    "full_name": "Nadia Abdallah",
+    "job_title": "Cybersecurity Architect",
+    "company": "SecureNet Solutions",
+    "email": "nadia.abdallah@securenetsolutions.com",
+    "linkedin": "https://linkedin.com/in/nadiaabdallah",
+    "goals_objectives": "Looking to understand AI's role in cybersecurity threats and solutions, and to expand professional network in the field.",
+    "interests": ["Cybersecurity", "AI", "Cloud Computing", "Enterprise", "Innovation"]
+  },
+  {
+    "id": "user_012",
+    "full_name": "Carlos Mendez",
+    "job_title": "IoT Solutions Lead",
+    "company": "SmartEdge Technologies",
+    "email": "carlos.mendez@smartedge.tech",
+    "linkedin": "https://linkedin.com/in/carlosmendez",
+    "goals_objectives": "Seeking partnerships for smart city projects and looking to integrate AI with our IoT platform.",
+    "interests": ["IoT", "AI", "Cloud Computing", "Enterprise", "Innovation"]
+  },
+  {
+    "id": "user_013",
+    "full_name": "Sophie Laurent",
+    "job_title": "AI Ethics Researcher",
+    "company": "Responsible AI Institute",
+    "email": "sophie.laurent@responsibleai.org",
+    "linkedin": "https://linkedin.com/in/sophielaurent",
+    "goals_objectives": "Promoting ethical AI frameworks and looking to collaborate with companies implementing responsible AI practices.",
+    "interests": ["AI", "Sustainability", "ESG", "Innovation", "Leadership"]
+  },
+  {
+    "id": "user_014",
+    "full_name": "Kwame Nkrumah",
+    "job_title": "Digital Transformation Lead",
+    "company": "AfriTech Alliance",
+    "email": "kwame@afritech.org",
+    "linkedin": "https://linkedin.com/in/kwamenkrumah",
+    "goals_objectives": "Building partnerships to bring cutting-edge tech solutions to African markets and seeking investment opportunities.",
+    "interests": ["Digital Transformation", "Innovation", "Startups", "Enterprise", "Leadership"]
+  },
+  {
+    "id": "user_015",
+    "full_name": "Olivia Park",
+    "job_title": "Robotics Engineer",
+    "company": "FutureAutomation Inc.",
+    "email": "olivia.park@futureauto.ai",
+    "linkedin": "https://linkedin.com/in/oliviapark",
+    "goals_objectives": "Showcasing our new collaborative robots and looking for applications in healthcare and manufacturing.",
+    "interests": ["Robotics", "AI", "Healthtech", "Innovation", "Startups"]
+  },
+  {
+    "id": "user_016",
+    "full_name": "Arjun Patel",
+    "job_title": "Cloud Architect",
+    "company": "Nimbus Cloud Services",
+    "email": "arjun.patel@nimbuscloud.io",
+    "linkedin": "https://linkedin.com/in/arjunpatel",
+    "goals_objectives": "Promoting our new hybrid cloud solutions and learning about AI workload optimization in the cloud.",
+    "interests": ["Cloud Computing", "AI", "Machine Learning", "SaaS", "Enterprise"]
+  },
+  {
+    "id": "user_017",
+    "full_name": "Isabella Rossi",
+    "job_title": "Digital Marketing Director",
+    "company": "GrowthHack Digital",
+    "email": "isabella.rossi@growthhack.digital",
+    "linkedin": "https://linkedin.com/in/isabellarossi",
+    "goals_objectives": "Looking to understand how AI is transforming digital marketing and to connect with martech solution providers.",
+    "interests": ["AI", "Marketing", "SaaS", "Innovation", "Sales"]
+  },
+  {
+    "id": "user_018",
+    "full_name": "Ethan Muller",
+    "job_title": "Quantum Computing Researcher",
+    "company": "Qubit Labs",
+    "email": "ethan.muller@qubitlabs.ai",
+    "linkedin": "https://linkedin.com/in/ethanmuller",
+    "goals_objectives": "Seeking commercial applications for our quantum algorithms and looking for academic collaborators.",
+    "interests": ["AI", "Machine Learning", "Cloud Computing", "Data Science", "Innovation"]
+  },
+  {
+    "id": "user_019",
+    "full_name": "Yuki Tanaka",
+    "job_title": "AR/VR Developer",
+    "company": "Immersive Experiences Co.",
+    "email": "yuki.tanaka@immersivexp.co",
+    "linkedin": "https://linkedin.com/in/yukitanaka",
+    "goals_objectives": "Demonstrating our new mixed reality platform and looking for content partners.",
+    "interests": ["AR/VR", "Design", "Innovation", "Enterprise", "Product Strategy"]
+  },
+  {
+    "id": "user_020",
+    "full_name": "Mohammed Al-Farsi",
+    "job_title": "Smart City Consultant",
+    "company": "UrbanTech Advisors",
+    "email": "mohammed@urbantech-advisors.com",
+    "linkedin": "https://linkedin.com/in/mohammedalfarsi",
+    "goals_objectives": "Advising cities on digital transformation and looking for innovative urban tech solutions.",
+    "interests": ["Digital Transformation", "Sustainability", "Innovation", "Enterprise", "Leadership"]
+  },
+  {
+    "id": "user_021",
+    "full_name": "Ananya Desai",
+    "job_title": "Health Tech Investor",
+    "company": "MedVenture Partners",
+    "email": "ananya@medventurepartners.com",
+    "linkedin": "https://linkedin.com/in/ananyadesai",
+    "goals_objectives": "Looking for promising health tech startups in diagnostics and personalized medicine to invest in.",
+    "interests": ["Healthtech", "Startups", "Venture Capital", "Fundraising", "Innovation"]
+  },
+  {
+    "id": "user_022",
+    "full_name": "Luca Bianchi",
+    "job_title": "AI Product Lead",
+    "company": "AutoML Solutions",
+    "email": "luca.bianchi@automl.ai",
+    "linkedin": "https://linkedin.com/in/lucabianchi",
+    "goals_objectives": "Launching our new no-code AI platform and seeking early adopters and feedback.",
+    "interests": ["AI", "SaaS", "Product Strategy", "Startups", "Innovation"]
+  },
+  {
+    "id": "user_023",
+    "full_name": "Fatima Zahra",
+    "job_title": "EdTech Founder",
+    "company": "Learnly",
+    "email": "fatima@learnly.education",
+    "linkedin": "https://linkedin.com/in/fatimazahra",
+    "goals_objectives": "Seeking partnerships to bring our adaptive learning platform to new markets and looking for education researchers.",
+    "interests": ["Edtech", "AI", "Design", "Innovation", "Startups"]
+  },
+  {
+    "id": "user_024",
+    "full_name": "Daniel Schmidt",
+    "job_title": "Supply Chain Innovation Manager",
+    "company": "Global Logistics Inc.",
+    "email": "daniel.schmidt@globallogistics.com",
+    "linkedin": "https://linkedin.com/in/danielschmidt",
+    "goals_objectives": "Exploring AI and blockchain solutions for supply chain optimization and seeking technology partners.",
+    "interests": ["Blockchain", "AI", "Enterprise", "Innovation", "Cloud Computing"]
+  },
+  {
+    "id": "user_025",
+    "full_name": "Hannah Cohen",
+    "job_title": "Legal Tech Specialist",
+    "company": "LexFutura",
+    "email": "hannah.cohen@lexfutura.law",
+    "linkedin": "https://linkedin.com/in/hannahcohen",
+    "goals_objectives": "Promoting our AI contract review platform and staying updated on legal tech regulations.",
+    "interests": ["AI", "SaaS", "Enterprise", "Innovation", "Leadership"]
+  }
+]
