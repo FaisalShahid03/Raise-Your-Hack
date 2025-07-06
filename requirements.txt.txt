@@ -1,0 +1,8 @@
+sentence-transformers
+torch
+transformers
+requests
+numpy
+scipy
+fastapi
+uvicorn
