@@ -7,7 +7,12 @@
     "email": "sarah.chen@techflow.com",
     "linkedin": "https://linkedin.com/in/sarahchen",
     "goals_objectives": "Looking to explore partnerships in AI/ML space, learn about sustainable tech solutions, and connect with other product leaders.",
-    "interests": ["AI", "Machine Learning", "SaaS", "Product Strategy", "Climate Tech"]
+    "interests": [
+      "Web3",
+      "AI",
+      "Climate Tech",
+      "Machine Learning"
+    ]
   },
   {
     "id": "user_002",
@@ -17,7 +22,13 @@
     "email": "raj.mehta@deepcompute.ai",
     "linkedin": "https://linkedin.com/in/rajmehta",
     "goals_objectives": "Interested in commercializing LLMs, discovering startups to collaborate with, and attending technical sessions on generative AI.",
-    "interests": ["AI", "Machine Learning", "Startups", "Data Science", "Cloud Computing"]
+    "interests": [
+      "AI",
+      "Machine Learning",
+      "Startups",
+      "Data Science",
+      "Cloud Computing"
+    ]
   },
   {
     "id": "user_003",
@@ -27,17 +38,29 @@
     "email": "amina@greenbridge.org",
     "linkedin": "https://linkedin.com/in/aminayusuf",
     "goals_objectives": "Looking to find investors, connect with AI experts for sustainability solutions, and showcase our new carbon tracking platform.",
-    "interests": ["Climate Tech", "Sustainability", "AI", "Startups", "ESG"]
+    "interests": [
+      "Climate Tech",
+      "Sustainability",
+      "AI",
+      "Startups",
+      "ESG"
+    ]
   },
   {
     "id": "user_004",
-    "full_name": "Tomás García",
+    "full_name": "Tom\u00e1s Garc\u00eda",
     "job_title": "Director of Innovation",
     "company": "NovaWorks",
     "email": "tomas.garcia@novaworks.io",
     "linkedin": "https://linkedin.com/in/tomasgarcia",
     "goals_objectives": "Exploring strategic partnerships, scouting for emerging tech trends, and evaluating potential vendors for upcoming projects.",
-    "interests": ["Innovation", "Enterprise", "Web3", "Robotics", "Digital Transformation"]
+    "interests": [
+      "Innovation",
+      "Enterprise",
+      "Web3",
+      "Robotics",
+      "Digital Transformation"
+    ]
   },
   {
     "id": "user_005",
@@ -47,7 +70,13 @@
     "email": "elena@bcdynamics.io",
     "linkedin": "https://linkedin.com/in/elenapetrov",
     "goals_objectives": "Seeking talent for our growing engineering team and looking for innovative decentralized applications to invest in.",
-    "interests": ["Blockchain", "Web3", "Startups", "Innovation", "Leadership"]
+    "interests": [
+      "Blockchain",
+      "Web3",
+      "Startups",
+      "Innovation",
+      "Leadership"
+    ]
   },
   {
     "id": "user_006",
@@ -57,7 +86,13 @@
     "email": "james.wilson@globalbank.com",
     "linkedin": "https://linkedin.com/in/jameswilson",
     "goals_objectives": "Evaluating AI solutions for financial services, learning about regulatory tech, and networking with fintech providers.",
-    "interests": ["AI", "Fintech", "Digital Transformation", "Enterprise", "Cloud Computing"]
+    "interests": [
+      "AI",
+      "Fintech",
+      "Digital Transformation",
+      "Enterprise",
+      "Cloud Computing"
+    ]
   },
   {
     "id": "user_007",
@@ -67,7 +102,13 @@
     "email": "priya.kapoor@metalabs.design",
     "linkedin": "https://linkedin.com/in/priyakapoor",
     "goals_objectives": "Looking to understand emerging UX patterns in AR/VR spaces and recruit participants for upcoming studies.",
-    "interests": ["AR/VR", "Design", "Innovation", "Product Strategy", "Enterprise"]
+    "interests": [
+      "AR/VR",
+      "Design",
+      "Innovation",
+      "Product Strategy",
+      "Enterprise"
+    ]
   },
   {
     "id": "user_008",
@@ -77,7 +118,13 @@
     "email": "marcus@neurolink.ai",
     "linkedin": "https://linkedin.com/in/marcusjohnson",
     "goals_objectives": "Pitching our neurotechnology platform to investors and seeking partnerships with healthcare providers.",
-    "interests": ["AI", "Healthtech", "Startups", "Venture Capital", "Fundraising"]
+    "interests": [
+      "AI",
+      "Healthtech",
+      "Startups",
+      "Venture Capital",
+      "Fundraising"
+    ]
   },
   {
     "id": "user_009",
@@ -87,7 +134,13 @@
     "email": "lina.zhang@omnianalytics.com",
     "linkedin": "https://linkedin.com/in/linazhang",
     "goals_objectives": "Looking to hire data engineers, learn about new MLops tools, and share our latest research on federated learning.",
-    "interests": ["Data Science", "AI", "Cloud Computing", "Machine Learning", "SaaS"]
+    "interests": [
+      "Data Science",
+      "AI",
+      "Cloud Computing",
+      "Machine Learning",
+      "SaaS"
+    ]
   },
   {
     "id": "user_010",
@@ -97,7 +150,13 @@
     "email": "david@horizonvc.com",
     "linkedin": "https://linkedin.com/in/davidkim",
     "goals_objectives": "Scouting for seed-stage startups in quantum computing and climate tech to potentially invest in.",
-    "interests": ["Venture Capital", "Startups", "Climate Tech", "Innovation", "Fundraising"]
+    "interests": [
+      "Venture Capital",
+      "Startups",
+      "Climate Tech",
+      "Innovation",
+      "Fundraising"
+    ]
   },
   {
     "id": "user_011",
@@ -107,7 +166,13 @@
     "email": "nadia.abdallah@securenetsolutions.com",
     "linkedin": "https://linkedin.com/in/nadiaabdallah",
     "goals_objectives": "Looking to understand AI's role in cybersecurity threats and solutions, and to expand professional network in the field.",
-    "interests": ["Cybersecurity", "AI", "Cloud Computing", "Enterprise", "Innovation"]
+    "interests": [
+      "Cybersecurity",
+      "AI",
+      "Cloud Computing",
+      "Enterprise",
+      "Innovation"
+    ]
   },
   {
     "id": "user_012",
@@ -117,7 +182,13 @@
     "email": "carlos.mendez@smartedge.tech",
     "linkedin": "https://linkedin.com/in/carlosmendez",
     "goals_objectives": "Seeking partnerships for smart city projects and looking to integrate AI with our IoT platform.",
-    "interests": ["IoT", "AI", "Cloud Computing", "Enterprise", "Innovation"]
+    "interests": [
+      "IoT",
+      "AI",
+      "Cloud Computing",
+      "Enterprise",
+      "Innovation"
+    ]
   },
   {
     "id": "user_013",
@@ -127,7 +198,13 @@
     "email": "sophie.laurent@responsibleai.org",
     "linkedin": "https://linkedin.com/in/sophielaurent",
     "goals_objectives": "Promoting ethical AI frameworks and looking to collaborate with companies implementing responsible AI practices.",
-    "interests": ["AI", "Sustainability", "ESG", "Innovation", "Leadership"]
+    "interests": [
+      "AI",
+      "Sustainability",
+      "ESG",
+      "Innovation",
+      "Leadership"
+    ]
   },
   {
     "id": "user_014",
@@ -137,7 +214,13 @@
     "email": "kwame@afritech.org",
     "linkedin": "https://linkedin.com/in/kwamenkrumah",
     "goals_objectives": "Building partnerships to bring cutting-edge tech solutions to African markets and seeking investment opportunities.",
-    "interests": ["Digital Transformation", "Innovation", "Startups", "Enterprise", "Leadership"]
+    "interests": [
+      "Digital Transformation",
+      "Innovation",
+      "Startups",
+      "Enterprise",
+      "Leadership"
+    ]
   },
   {
     "id": "user_015",
@@ -147,7 +230,13 @@
     "email": "olivia.park@futureauto.ai",
     "linkedin": "https://linkedin.com/in/oliviapark",
     "goals_objectives": "Showcasing our new collaborative robots and looking for applications in healthcare and manufacturing.",
-    "interests": ["Robotics", "AI", "Healthtech", "Innovation", "Startups"]
+    "interests": [
+      "Robotics",
+      "AI",
+      "Healthtech",
+      "Innovation",
+      "Startups"
+    ]
   },
   {
     "id": "user_016",
@@ -157,7 +246,13 @@
     "email": "arjun.patel@nimbuscloud.io",
     "linkedin": "https://linkedin.com/in/arjunpatel",
     "goals_objectives": "Promoting our new hybrid cloud solutions and learning about AI workload optimization in the cloud.",
-    "interests": ["Cloud Computing", "AI", "Machine Learning", "SaaS", "Enterprise"]
+    "interests": [
+      "Cloud Computing",
+      "AI",
+      "Machine Learning",
+      "SaaS",
+      "Enterprise"
+    ]
   },
   {
     "id": "user_017",
@@ -167,7 +262,13 @@
     "email": "isabella.rossi@growthhack.digital",
     "linkedin": "https://linkedin.com/in/isabellarossi",
     "goals_objectives": "Looking to understand how AI is transforming digital marketing and to connect with martech solution providers.",
-    "interests": ["AI", "Marketing", "SaaS", "Innovation", "Sales"]
+    "interests": [
+      "AI",
+      "Marketing",
+      "SaaS",
+      "Innovation",
+      "Sales"
+    ]
   },
   {
     "id": "user_018",
@@ -177,7 +278,13 @@
     "email": "ethan.muller@qubitlabs.ai",
     "linkedin": "https://linkedin.com/in/ethanmuller",
     "goals_objectives": "Seeking commercial applications for our quantum algorithms and looking for academic collaborators.",
-    "interests": ["AI", "Machine Learning", "Cloud Computing", "Data Science", "Innovation"]
+    "interests": [
+      "AI",
+      "Machine Learning",
+      "Cloud Computing",
+      "Data Science",
+      "Innovation"
+    ]
   },
   {
     "id": "user_019",
@@ -187,7 +294,13 @@
     "email": "yuki.tanaka@immersivexp.co",
     "linkedin": "https://linkedin.com/in/yukitanaka",
     "goals_objectives": "Demonstrating our new mixed reality platform and looking for content partners.",
-    "interests": ["AR/VR", "Design", "Innovation", "Enterprise", "Product Strategy"]
+    "interests": [
+      "AR/VR",
+      "Design",
+      "Innovation",
+      "Enterprise",
+      "Product Strategy"
+    ]
   },
   {
     "id": "user_020",
@@ -197,7 +310,13 @@
     "email": "mohammed@urbantech-advisors.com",
     "linkedin": "https://linkedin.com/in/mohammedalfarsi",
     "goals_objectives": "Advising cities on digital transformation and looking for innovative urban tech solutions.",
-    "interests": ["Digital Transformation", "Sustainability", "Innovation", "Enterprise", "Leadership"]
+    "interests": [
+      "Digital Transformation",
+      "Sustainability",
+      "Innovation",
+      "Enterprise",
+      "Leadership"
+    ]
   },
   {
     "id": "user_021",
@@ -207,7 +326,13 @@
     "email": "ananya@medventurepartners.com",
     "linkedin": "https://linkedin.com/in/ananyadesai",
     "goals_objectives": "Looking for promising health tech startups in diagnostics and personalized medicine to invest in.",
-    "interests": ["Healthtech", "Startups", "Venture Capital", "Fundraising", "Innovation"]
+    "interests": [
+      "Healthtech",
+      "Startups",
+      "Venture Capital",
+      "Fundraising",
+      "Innovation"
+    ]
   },
   {
     "id": "user_022",
@@ -217,7 +342,13 @@
     "email": "luca.bianchi@automl.ai",
     "linkedin": "https://linkedin.com/in/lucabianchi",
     "goals_objectives": "Launching our new no-code AI platform and seeking early adopters and feedback.",
-    "interests": ["AI", "SaaS", "Product Strategy", "Startups", "Innovation"]
+    "interests": [
+      "AI",
+      "SaaS",
+      "Product Strategy",
+      "Startups",
+      "Innovation"
+    ]
   },
   {
     "id": "user_023",
@@ -227,7 +358,13 @@
     "email": "fatima@learnly.education",
     "linkedin": "https://linkedin.com/in/fatimazahra",
     "goals_objectives": "Seeking partnerships to bring our adaptive learning platform to new markets and looking for education researchers.",
-    "interests": ["Edtech", "AI", "Design", "Innovation", "Startups"]
+    "interests": [
+      "Edtech",
+      "AI",
+      "Design",
+      "Innovation",
+      "Startups"
+    ]
   },
   {
     "id": "user_024",
@@ -237,7 +374,13 @@
     "email": "daniel.schmidt@globallogistics.com",
     "linkedin": "https://linkedin.com/in/danielschmidt",
     "goals_objectives": "Exploring AI and blockchain solutions for supply chain optimization and seeking technology partners.",
-    "interests": ["Blockchain", "AI", "Enterprise", "Innovation", "Cloud Computing"]
+    "interests": [
+      "Blockchain",
+      "AI",
+      "Enterprise",
+      "Innovation",
+      "Cloud Computing"
+    ]
   },
   {
     "id": "user_025",
@@ -247,6 +390,12 @@
     "email": "hannah.cohen@lexfutura.law",
     "linkedin": "https://linkedin.com/in/hannahcohen",
     "goals_objectives": "Promoting our AI contract review platform and staying updated on legal tech regulations.",
-    "interests": ["AI", "SaaS", "Enterprise", "Innovation", "Leadership"]
+    "interests": [
+      "AI",
+      "SaaS",
+      "Enterprise",
+      "Innovation",
+      "Leadership"
+    ]
   }
 ]

@@ -1,19 +1,30 @@
-import json
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel
+import json
+from sentence_transformers import SentenceTransformer, util
+
 app = FastAPI(title="EventAI API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Allows all origins
+    allow_origins=["*"],
     allow_credentials=True,
-    allow_methods=["*"],  # Allows all methods
-    allow_headers=["*"],  # Allows all headers
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
-def load_users(json_path: str = "users.json") -> List[Dict[str, Any]]:
-    """Load users from JSON file"""
+DATA_FILE = "users.json"
+
+class UserUpdate(BaseModel):
+    full_name: Optional[str] = None
+    email: Optional[str] = None
+    job_title: Optional[str] = None
+    company: Optional[str] = None
+    interests: Optional[List[str]] = None
+
+def load_users(json_path: str = DATA_FILE) -> List[Dict[str, Any]]:
     try:
         with open(json_path, "r", encoding="utf-8") as f:
             return json.load(f)
@@ -22,20 +33,27 @@ def load_users(json_path: str = "users.json") -> List[Dict[str, Any]]:
     except json.JSONDecodeError:
         raise HTTPException(status_code=500, detail="Invalid JSON format in users file")
 
-def find_top_3_interest_matches(user_id: str, json_path: str = r"users.json"):
-    # Load users
-    with open(json_path, "r", encoding="utf-8") as f:
+def save_users(users: List[Dict[str, Any]], json_path: str = DATA_FILE):
+    try:
+        with open(json_path, "w", encoding="utf-8") as f:
+            json.dump(users, f, indent=2)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to write users file: {str(e)}")
+
+def find_top_3_interest_matches(user_id: str, json_path: str = DATA_FILE, threshold: float = 0.6):
+    model = SentenceTransformer("all-MiniLM-L6-v2")
+    with open(json_path, "r") as f:
         users = json.load(f)
 
-    # Get target user
     target_user = next((u for u in users if u["id"] == user_id), None)
     if not target_user:
         raise ValueError(f"User with ID '{user_id}' not found.")
-
+    
     target_interests = target_user.get("interests", [])
     if not target_interests:
         raise ValueError(f"User '{user_id}' has no interests.")
 
+    target_embeddings = model.encode(target_interests, convert_to_tensor=True)
     matches = []
 
     for user in users:
@@ -46,13 +64,21 @@ def find_top_3_interest_matches(user_id: str, json_path: str = r"users.json"):
         if not other_interests:
             continue
 
-        # Simple set intersection
-        common_interests = set(target_interests) & set(other_interests)
+        other_embeddings = model.encode(other_interests, convert_to_tensor=True)
+        sim_matrix = util.pytorch_cos_sim(target_embeddings, other_embeddings)
+        common_interests = set()
+
+        for i, target_interest in enumerate(target_interests):
+            for j, other_interest in enumerate(other_interests):
+                if sim_matrix[i][j].item() >= threshold:
+                    common_interests.add(other_interest)
 
         if not common_interests:
             continue
 
-        score = len(common_interests)  # Matching score is just the number of shared interests
+        target_mean = target_embeddings.mean(dim=0)
+        other_mean = other_embeddings.mean(dim=0)
+        similarity = util.pytorch_cos_sim(target_mean, other_mean).item()
 
         matches.append({
             "user_id": user["id"],
@@ -60,7 +86,7 @@ def find_top_3_interest_matches(user_id: str, json_path: str = r"users.json"):
             "email": user.get("email", "N/A"),
             "job_title": user.get("job_title", "N/A"),
             "company": user.get("company", "N/A"),
-            "score": score,
+            "score": round(similarity * 100, 2),
             "interests": list(common_interests)
         })
 
@@ -88,7 +114,6 @@ def get_matches():
 
 @app.get("/users", response_model=List[Dict[str, Any]])
 def get_all_users():
-    """Get all users data"""
     try:
         users = load_users()
         return users
@@ -96,3 +121,27 @@ def get_all_users():
         raise he
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Unexpected error: {str(e)}")
+
+
+@app.put("/users/{user_id}")
+def update_user(user_id: str, user_update: UserUpdate):
+    users = load_users()
+    for i, user in enumerate(users):
+        if user["id"] == user_id:
+            updated_user = {**user, **user_update.dict(exclude_unset=True)}
+            users[i] = updated_user
+            save_users(users)
+            return {"message": "User updated", "user": updated_user}
+    raise HTTPException(status_code=404, detail=f"User with ID '{user_id}' not found.")
+
+@app.get("/user", response_model=Dict[str, Any])
+def get_user_001():
+    """Return only the user with ID 'user_001'."""
+    users = load_users()
+    user = next((u for u in users if u["id"] == "user_001"), None)
+
+    if not user:
+        raise HTTPException(status_code=404, detail="User 'user_001' not found.")
+
+    return user
+
