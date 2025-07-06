@@ -1,17 +1,18 @@
 [
   {
     "id": "user_001",
-    "full_name": "Sarah Chen",
+    "full_name": "Sarah Chens",
     "job_title": "Senior Product Manager",
     "company": "TechFlow Inc.",
     "email": "sarah.chen@techflow.com",
     "linkedin": "https://linkedin.com/in/sarahchen",
     "goals_objectives": "Looking to explore partnerships in AI/ML space, learn about sustainable tech solutions, and connect with other product leaders.",
     "interests": [
-      "Web3",
       "AI",
       "Climate Tech",
-      "Machine Learning"
+      "Machine Learning",
+      "SaaS",
+      "Product Strategy"
     ]
   },
   {
