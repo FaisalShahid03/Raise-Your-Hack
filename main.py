@@ -145,3 +145,47 @@ def get_user_001():
 
     return user
 
+def recommend_sessions_for_default_user(threshold: float = 0.3):
+    model = SentenceTransformer("all-MiniLM-L6-v2")
+
+    users = load_users()
+    sessions = json.load(open("sessions.json"))
+
+    user = next((u for u in users if u["id"] == "user_001"), None)
+    if not user:
+        raise ValueError("User 'user_001' not found.")
+
+    user_profile = " ".join(user.get("interests", [])) + " " + user.get("goals_objectives", "")
+    user_embedding = model.encode([user_profile], convert_to_tensor=True)
+
+    recommended = []
+
+    for session in sessions:
+        session_text = " ".join(session.get("tags", [])) + " " + session.get("description", "")
+        session_embedding = model.encode([session_text], convert_to_tensor=True)
+        similarity = util.pytorch_cos_sim(user_embedding, session_embedding).item()
+
+        if similarity >= threshold:
+            session["similarity_score"] = round(similarity * 100, 2)
+            recommended.append(session)
+
+    # Sort results descending by similarity score
+    recommended.sort(key=lambda x: x["similarity_score"], reverse=True)
+    return recommended
+
+
+@app.get("/recommendations")
+def get_recommendations():
+    try:
+        results = recommend_sessions_for_default_user(threshold=0.5)
+        return {
+            "user_id": "user_001",
+            "recommended_sessions": results
+        }
+    except ValueError as ve:
+        raise HTTPException(status_code=404, detail=str(ve))
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Unexpected error: {str(e)}")
+
+
+
